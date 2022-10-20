@@ -1,0 +1,24 @@
+.text-center {
+    background-color: rgb(236, 236, 216);
+}
+
+.col {
+    margin: 20px 0px;
+}
+
+.cardTitle {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.img-thumbnail {
+    width: 200px;
+    height: 200px;
+}
+
+.bi {    
+    font-size: 26px;
+    color:rgb(128, 85, 120);
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
