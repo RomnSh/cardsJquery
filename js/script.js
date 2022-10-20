@@ -1,8 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
-    $.getJSON('assets/cardModel.json', function(data){
+    $.getJSON('assets/cardModel.json', function(data) {
         
-        $.each(data, function(i, valye){
+        $.each(data, function(i, valye) {
             $('.row').append ('<div class="col col-6 col-md-4" ></div>');
             $('.col').eq(i).append(`<div class="cardTitle">${this.cardName.toUpperCase()}</div>`);
             $('.cardTitle').eq(i).append('<i class="btn bi bi-x-square-fill"></i>');
@@ -14,5 +14,5 @@ $(document).ready(function(){
         $("i").click(function () { 
         $(this).parent('div').parent('div').remove();
         });
-    })
-})
+    });
+});
